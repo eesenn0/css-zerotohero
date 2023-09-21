@@ -5,3 +5,19 @@ h2 {
 .subtitle {
 	color: blue;
 }
+
+li:only-child {
+	color: steelblue;
+}
+
+td:only-child {
+	color: purple;
+}
+
+.link:link {
+	color: blue;
+}
+
+.link:visited {
+	color: red;
+}
