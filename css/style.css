@@ -2,7 +2,8 @@ h2:hover {
 	color: red;
 }
 
-.subtitle {
+/* attribute selector */
+h2[class=subtitle] {
 	color: blue;
 }
 
@@ -37,4 +38,9 @@ ul > li {
 /* descendant selector */
 ul li {
 	color: green;
+}
+
+/* '^' -> starts with & '$' -> ends with & '*' -> anywhere with */
+img[src^="../img/"] {
+	border: 10px solid black;
 }
