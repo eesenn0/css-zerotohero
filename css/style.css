@@ -1,4 +1,4 @@
-h2 {
+h2:hover {
 	color: red;
 }
 
@@ -14,10 +14,27 @@ td:only-child {
 	color: purple;
 }
 
-.link:link {
+/*.link:link {
 	color: blue;
 }
 
 .link:visited {
 	color: red;
+}*/
+
+h2 + a {
+	color: red;
+}
+
+textarea ~ button {
+	color: purple;
+}
+
+ul > li {
+	color: blue;
+}
+
+/* descendant selector */
+ul li {
+	color: green;
 }
